@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+  /*Texto do detalhes*/
+  	@font-face {
+		font-family:'principal';
+		src:url(../fonts/Anton.ttf);
+	}
+  
+  
+  p {
+	  color:#CCC;
+	  text-align:justify;
+	  padding:5px;
+  }
+  
+h3#detalhes {
+	background-image:url(../Imagens/borda.jpg);
+	color:#FFF;
+	text-align:center;
+	font-size:16px;
+	font-family:'arial';
+	padding:2px;
+
+}
+
+div#empresa {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	box-shadow:#FFF;
+	
+}
+div#esquerda img {
+	margin-top:10px;
+}
+
+
+
+
+div#produtos {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	
+}
+
+div#servicos {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	
+}
+
+
+
+div#menu {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	
+}
+
+
+div#filtro {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	
+}
+div#empresaservicos {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	}
+	
+div#eventos {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	}
+
+div#km {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	}
+div#propaganda {
+	width:620px;
+	height:800px;
+	background:#333;
+	margin: 1px auto 1px auto;
+	margin-bottom:800px;
+	}
+
+div#esquerda {
+		display:block;/*display bloqueado*/
+		width:100px;/*tamanho */
+		float:left;/*flutuando a esquerda*/
+		padding-left:10px;
+	}
+div#direita {
+		display:block;/*display bloqueado*/
+		width:350px;/*tamanho */
+		float:right;/*flutuando a direita*/
+		padding:10px
+	}	
+	
+div#direita img{
+	margin: 10px auto 1px auto; /*margens : topo, direita,baixo, esquerda */
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5); /*sombra do objeto: dislocamento lateral, dislocamento vertical, espalhamento da sombra (cor da sombra e transparecia 50% no final)*/
+	left:100px;
+	display:block;
+	border-color:#FFF solid 3px;
+	}
+	

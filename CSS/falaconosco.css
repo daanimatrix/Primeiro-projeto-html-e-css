@@ -1,0 +1,15 @@
+
+
+img#faleconosco {
+	-moz-border-radius:10px;/*curva no menu*/
+	-webkit-border-radius:10px;/*curva no menu*/
+	
+	
+}
+img#faleconosco:hover {
+	
+	border:2px solid red; /*deixa a borda solida com linha de 2 px e da cor vermelha */
+	filter:drop-shadow( 6px 6px 12px black );/*Sombra */
+	width::270px;
+	height:270px;
+}

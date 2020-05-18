@@ -1,0 +1,367 @@
+								/*BASICO*/
+	body {
+		background-image:url(../imagens/corpo/fundo.jpg);
+		font-family: "Open Sans", helvetica, arial;
+	}
+	
+	
+	/*H1 até H6*/
+	
+	h1 {
+		margin-top:-70px;
+	}
+	h2#menu {
+			font-size:25px;
+			color:#fff;
+			background-color:#900;
+			padding: 5px 50px 5px 50px;
+			margin:5px;
+			text-align:center;
+			border-radius:20px;/*curva no rodapé*/
+			-moz-border-radius:10px;/*curva no rodapé*/
+			-webkit-border-radius:10px;/*curva no rodapé*/
+			box-shadow:2px 2px 20px #fff;
+			margin-top:-85px;		
+			
+			
+	}
+	
+	h4#titulo{
+		padding:10px;
+		color:#000;
+		text-shadow:#333;
+	}
+	
+	
+	img#borda {
+		border:solid 2px #333333;
+		box-shadow:2px 2px 10px;
+	}
+	
+						/*FAIXA VERMELHA DO MENU*/
+	div#faixamenu {
+		background-image:url(../imagens/faixamenu.jpg);
+		width: auto;
+		height:180px;
+		z-index:1px;
+		margin-top:-10px;
+		position:relative;	
+	}
+					
+						/*INTERFACES*/
+	div#interface {
+		width: 1000px;	/*largura: tera uma interface de 1000 px*/
+		background:#FFF;/*fundo da interface*/
+		margin: 0px auto 1px auto; /*margens : topo, direita,baixo, esquerda */
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5); /*sombra do objeto: dislocamento lateral, d		dislocamento vertical, espalhamento da 		     sombra (cor da sombra e transparecia 50% no final)*/
+		padding: 10px;/*Ele deixara um espaço nas bordas de dentro : topo, direita, baixo, esquerda "*/
+		-moz-border-radius:10px;/*curva no menu*/
+		-webkit-border-radius:10px;/*curva no menu*/
+		padding-top:100px;
+		z-index:2;
+	}
+	
+	img#icone{
+		box-shadow:#000;
+		position:relative;
+		left:130px;
+		top:2px;
+		}
+	
+	div#interface2 {
+		width: 1000px;	/*largura: tera uma interface de 1000 px*/
+		background:#FFF;/*fundo da interface*/
+		margin: 0px auto 1px auto; /*margens : topo, direita,baixo, esquerda */
+		z-index:15px;
+		margin-top:-50px;
+		}
+			
+	
+							
+						/*RODOPÉ*/
+										
+	div#fundo{
+			background-color:#333;
+			width:1000px;
+			border-radius:20px;/*curva no rodapé*/
+			-moz-border-radius:10px;/*curva no rodapé*/
+			-webkit-border-radius:10px;/*curva no rodapé*/
+			box-shadow:2px 2px 10px #666666;
+		}
+		div#ladoesquerdo {
+			color:#FFF;
+			padding:10px 10px 10px 25px ;
+			width:220px;
+			height:200px;
+			display:block;
+			position:relative;
+			float:left;
+		}
+		div#ladoesquerdo2 {
+			color:#FFF;
+			padding:10px 10px 10px 25px ;
+			width:220px;
+			height:200px;
+			display:block;
+			position:relative;
+			float:left;
+			text-align:justify;
+			text-align:center;
+			margin-left:100px;
+	
+		}
+	div#ladodireita {
+			color:#fff;
+			padding:20px 20px 10px 10px;;
+			width:220px;
+			height:200px;
+			display:block;
+			position:relative;
+			float:right;
+			
+		}
+		
+	div#barra {
+			border-bottom:2px #FFF solid;
+	}			
+					
+						/*MENU*/
+	
+	.menu {
+			width:100%;
+			height:50px;
+			font-family:'Arial';
+			list-style:none;
+			z-index:60px;
+	}
+	
+	
+	.menu ul{
+			list-style:none;
+			position:relative;
+			background-color:#000;
+	
+	}
+	
+	.menu ul li{
+			width: 150px;
+			float:left;
+			color:#000;
+	}
+	.menu li a{
+		color:#000;
+		text-decoration:none; 
+		padding:10px;
+		display:block;
+		text-transform:uppercase;
+		transition: background .8s;
+		
+	}
+	.menu a{
+			padding: 15px;
+			display:block;
+			text-decoration:none;
+			text-align:center; /*Texto alinhado*/
+			color:#000;
+			border-radius:20px;/*curva no menu*/
+			-moz-border-radius:10px;/*curva no menu*/
+			-webkit-border-radius:10px;/*curva no menu*/
+		
+	
+	}
+	.menu li:hover ul, .menu li.over ul{
+		display:block;
+		top:40px;
+		width:180px;
+		background:url(../img/fundo3.jpg);
+		border:solid 2px black;
+		box-shadow:2px 2px 20px #fff;
+		background:url(../imagens/corpo/fundo.jpg);
+		border-radius:20px;/*curva no menu*/
+		-moz-border-radius:10px;/*curva no menu*/
+		-webkit-border-radius:10px;/*curva no menu*/
+		
+	}
+	
+	.menu ul ul {
+			position:absolute;
+			visibility:hidden; /*Sumir e aparecer de baixo para cima*/
+	
+	
+	}
+	
+	.menu ul li:hover ul{
+			visibility: visible;/*ao passar o mouse ele aparecera */
+			z-index:60; 
+		
+	}
+	
+	.menu a:hover{
+			background-color:#666; /*Quando passar o mouse em cima o fundo ficara cinza escuro*/
+			color:#fff; /*Cor do fundo */
+			text-shadow:0px 0px 5px #000;
+			border-bottom:solid 2px #FFFFFF;
+			z-index:6000; 
+			padding:10px;
+			border:1px;
+	 }
+	
+	.menu ul ul li{
+			float:none;
+			border-bottom: solid 1px #ccc;
+			z-index:6000; 
+	}
+	
+	.menu ul ul li a{
+	
+			color:#000;
+	
+			
+		
+	}
+	
+	label[for="bt_menu"]{
+			padding:5px;
+			background-color:#222;
+			color:#fff;
+			font-family:"Arial";
+			text-align:center;
+			font-size:30px;
+			cursor:pointer;
+			width: 50px;
+			height:50px;
+	}
+	
+	#bt_menu{
+		display:none; /**Ele desaparecera o simbolo do menu*/
+	}
+	
+	label[for="bt_menu"]{
+		display:none; 
+	}
+	/*JANELA DE EXEMPLO DO APLICATIVO*/
+	
+	iframe#frame-detalhes {
+		width: 650px;
+		height: 470px;
+		padding:10px;
+		margin-left:25px ;
+		background:#FFF;
+		border-top:10px;
+		margin-top:10px;
+		border:solid black 1px;
+		
+	}
+
+@media(max-width:800px){
+	
+						/*MENU PRINCIPAL */
+	label[for="bt_menu"]{ /*aparecera o icone menu*/
+		display:block;
+	}	
+	#bt_menu:checked ~ .menu{
+		margin-left: 0px;
+	}
+	div#faixamenu {
+		background-image:none;
+		width: 0px;;
+		z-index:1px;
+		margin-top:120px;
+		position:relative;	
+}
+	.menu{ 
+		margin-top:5px; /*espaço entre o simbolo do menu e o */
+		margin-left:-100%;/*desaparecera o menu   */
+		transition:all .4s;/*aparecera com umna transição de 4 segundos*/
+		
+	}
+	/*Letra do menu ( Androide )*/
+	.menu a { 
+		font-size:24px;
+	}
+	/*Borda do menu, só as laterais ( Androide )*/
+	.menu ul{
+		background:url(../imagens/corpo/fundo.jpg);
+	}
+	/*Referente a borda dos botoes dentro do menu ( Androide )*/
+	.menu ul li{
+		width:25%;
+		float:none;
+		z-index:30;
+	}
+	/*Ele trata do sub menu */
+	.menu ul ul{
+		position:static;
+		overflow:hidden; /**/
+		max-height:0;/*Ele zera o tamanho dos sub menu */
+		transition:all .4s; /*Todos transição sera de 4 segundos*/
+		width:10%;
+		float:left;
+		
+	}
+	.menu ul ul li a{
+		width:80%;/*Altura do botão quando fica miniatura */
+	}
+
+	/*ao passar o mouse no menu ele chegara a altura automatica (Normal) e o maximo do tamanho 250px*/
+	.menu ul li:hover ul{ 
+		height:auto; /*Altura automatica*/
+		max-height: 250px;
+		z-index:30;
+	}
+	
+	
+	.menu li{
+		background-color:#CCC;   /*Cor do fundo do menu versão androide*/
+}
+
+	.menu li:hover ul, .menu li.over ul{
+		top:auto;
+		width:200px;'
+		background:url(../img/fundo3.jpg);
+		border:solid 2px black;
+		box-shadow:2px 2px 20px #fff;
+		border-radius:20px;/*curva no menu*/
+		-moz-border-radius:10px;/*curva no menu*/
+		-webkit-border-radius:10px;/*curva no menu*/
+			
+	}
+	
+							/*PAGINA PRINCIPAL */
+	div#interface {
+			
+			width: 100%;	/*largura: tera uma interface de 1000 px*/
+			background:#fff;/*fundo da interface*/
+			margin: 0px auto 1px auto; /*margens : topo, direita,baixo, esquerda */
+			z-index:5px;
+	
+	}
+
+	iframe {
+		width:95%;
+	
+	}
+
+	iframe#frame-detalhes {
+		width:1%;
+		height: 470px;
+		padding:10px;
+		margin-left:25px ;
+		background:#FFF;
+		border-top:10px;
+		margin-top:10px;
+		border:solid #FFF 0px;
+		
+	}
+
+	div#fundo {
+		width:0px;
+		height:0px;
+	
+	}
+	
+	img.rodape {
+		width:0px;
+		height:0px;
+		
+	}
